@@ -9,6 +9,8 @@ namespace Ocelot.Article.Controllers
     [ApiController]
     public class ArticlesController : ControllerBase
     {
+
+        [HttpGet]
         public ActionResult<IEnumerable<Articles>> GetAll()
         {
             var articles = ArticleRepo.GetAll();
