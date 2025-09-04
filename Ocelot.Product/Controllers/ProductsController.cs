@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Ocelot.Product.Repos;
 
 namespace Ocelot.Product.Controllers
 {

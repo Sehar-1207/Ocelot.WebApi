@@ -10,5 +10,12 @@ namespace Ocelot.Article.Repo
             new Articles { Id = 2, Title = "Article 2", Description = "This is Description 2", Author = "Author 2" },
             new Articles { Id = 3, Title = "Article 3", Description = "This is Description 3", Author = "Author 3" }
         };
+
+        // ✅ Get all products
+        public static List<Articles> GetAll() => Articles;
+
+        // ✅ Get product by ID
+        public static Articles? GetById(int id) =>
+            Articles.FirstOrDefault(p => p.Id == id);
     }
 }

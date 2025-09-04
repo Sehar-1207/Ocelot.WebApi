@@ -1,4 +1,4 @@
-﻿namespace Ocelot.Product
+﻿namespace Ocelot.Product.Repos
 {
     public static class ProductRepo
     {
